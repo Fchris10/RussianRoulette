@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.russianroulette.DialogueStart">
+   <children>
+      <ImageView fx:id="idImage1" fitHeight="321.0" fitWidth="181.0" layoutX="260.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/succo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="idContinue1" layoutX="516.0" layoutY="394.0" mnemonicParsing="false" onAction="#onContinue1Clicked" style="-fx-background-color: null; -fx-border-color: white;" text="CONTINUE" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font></Button>
+      <TextField fx:id="idNameP1" layoutX="73.0" layoutY="482.0" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: gray;" visible="false" />
+      <TextField fx:id="idNameP2" layoutX="531.0" layoutY="482.0" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: gray;" visible="false" />
+      <Button fx:id="idHey" layoutX="65.0" layoutY="98.0" mnemonicParsing="false" onAction="#onHeyClicked" prefHeight="37.0" prefWidth="66.0" style="-fx-background-color: null;" text="HEY!" textFill="WHITE">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font></Button>
+      <Button fx:id="idAdd" layoutX="326.0" layoutY="525.0" mnemonicParsing="false" onAction="#onAddClicked" style="-fx-background-color: null;" text="ADD" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font></Button>
+      <Button fx:id="idPlay" layoutX="297.0" layoutY="300.0" mnemonicParsing="false" onAction="#onPlayClicked" opacity="0.0" style="-fx-background-color: null; -fx-border-color: white;" text="PLAY" textFill="WHITE">
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font></Button>
+      <Label fx:id="idDialogue1" layoutX="451.0" layoutY="213.0" textFill="WHITE">
+         <font>
+            <Font name="Agency FB" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="idSkip" layoutX="39.0" layoutY="525.0" mnemonicParsing="false" onAction="#onSkipClicked" style="-fx-background-color: null;" text="SKIP" textAlignment="JUSTIFY" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Agency FB" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

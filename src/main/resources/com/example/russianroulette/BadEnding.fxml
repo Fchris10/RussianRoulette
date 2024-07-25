@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.russianroulette.BadEnding">
+   <children>
+      <ImageView fx:id="idP1" fitHeight="150.0" fitWidth="200.0" layoutX="257.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/limone.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="idBadEndingLsbel" layoutX="240.0" layoutY="39.0" text="Bad Ending" textFill="#5c0707">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.russianroulette.CodeRoom">
+   <children>
+      <ImageView fitHeight="601.0" fitWidth="762.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/backgroundCodeRoom.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="316.0" fitWidth="169.0" layoutX="203.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/keypadGame.png" />
+         </image>
+      </ImageView>
+      <Circle fill="#777575" layoutX="260.0" layoutY="320.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#777575" layoutX="286.0" layoutY="320.0" radius="8.0" stroke="#141414" strokeType="INSIDE" />
+      <Circle fill="#777575" layoutX="339.0" layoutY="320.0" radius="8.0" stroke="#141414" strokeType="INSIDE" />
+      <Circle fill="#777575" layoutX="312.0" layoutY="320.0" radius="8.0" stroke="#141414" strokeType="INSIDE" />
+      <Label fx:id="id3" layoutX="309.0" layoutY="312.0">
+         <font>
+            <Font size="10.0" />
+         </font></Label>
+      <Label fx:id="id2" layoutX="283.0" layoutY="312.0">
+         <font>
+            <Font size="10.0" />
+         </font></Label>
+      <Label fx:id="id1" layoutX="257.0" layoutY="312.0">
+         <font>
+            <Font size="10.0" />
+         </font></Label>
+      <Label fx:id="id4" layoutX="336.0" layoutY="312.0">
+         <font>
+            <Font size="10.0" />
+         </font></Label>
+      <ImageView fx:id="idDoor" disable="true" fitHeight="395.0" fitWidth="175.0" layoutX="519.0" layoutY="163.0" onMouseClicked="#onDoorClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/closeDoor.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="idPaper" fitHeight="42.0" fitWidth="27.0" layoutX="255.0" layoutY="423.0" onMouseClicked="#onPiperClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/littlePaper.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="idN1" layoutX="257.0" layoutY="339.0" onMouseClicked="#onN1Clicked" prefWidth="2.0" style="-fx-border-color: #feff80;" text="1" textAlignment="JUSTIFY" textFill="#becc25">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="idN2" layoutX="283.0" layoutY="339.0" onMouseClicked="#onN2Clicked" prefWidth="2.0" style="-fx-border-color: #feff80;" text="2" textAlignment="JUSTIFY" textFill="#becc25">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="idN3" layoutX="309.0" layoutY="339.0" onMouseClicked="#onN3Clicked" prefWidth="2.0" style="-fx-border-color: #feff80;" text="3" textAlignment="JUSTIFY" textFill="#becc25">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="idN4" layoutX="257.0" layoutY="361.0" onMouseClicked="#onN4Clicked" prefWidth="2.0" style="-fx-border-color: #feff80;" text="4" textAlignment="JUSTIFY" textFill="#becc25">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="idN5" layoutX="283.0" layoutY="361.0" onMouseClicked="#onN5Clicked" prefWidth="2.0" style="-fx-border-color: #feff80;" text="5" textAlignment="JUSTIFY" textFill="#becc25">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="idN6" layoutX="309.0" layoutY="361.0" onMouseClicked="#onN6Clicked" prefWidth="2.0" style="-fx-border-color: #feff80;" text="6" textAlignment="JUSTIFY" textFill="#becc25">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="idN7" layoutX="257.0" layoutY="382.0" onMouseClicked="#onN7Clicked" prefWidth="2.0" style="-fx-border-color: #feff80;" text="7" textAlignment="JUSTIFY" textFill="#becc25">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="idN8" layoutX="283.0" layoutY="382.0" onMouseClicked="#onN8Clicked" prefWidth="2.0" style="-fx-border-color: #feff80;" text="8" textAlignment="JUSTIFY" textFill="#becc25">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="idN9" layoutX="309.0" layoutY="382.0" onMouseClicked="#onN9Clicked" prefWidth="2.0" style="-fx-border-color: #feff80;" text="9" textAlignment="JUSTIFY" textFill="#becc25">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="idOK" layoutX="329.0" layoutY="339.0" onMouseClicked="#onOkClicked" prefHeight="18.0" prefWidth="16.0" text="OK" textFill="#27c737">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="idRetry" layoutX="329.0" layoutY="359.0" onMouseClicked="#onRetryClicked" prefHeight="15.0" prefWidth="16.0" text="CA" textFill="#d92929">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="idN0" layoutX="331.0" layoutY="382.0" onMouseClicked="#onN0Clicked" prefWidth="2.0" style="-fx-border-color: #feff80;" text="0" textAlignment="JUSTIFY" textFill="#becc25">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="idBack" fitHeight="42.0" fitWidth="49.0" layoutX="14.0" layoutY="291.0" onMouseClicked="#onBackClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/BackArray.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

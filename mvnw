@@ -19,7 +19,7 @@
 # ----------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------
-# Maven Start Up Batch script
+# Maven com.example.russianroulette.Start Up Batch script
 #
 # Required ENV vars:
 # ------------------

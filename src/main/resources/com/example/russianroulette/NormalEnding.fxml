@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.russianroulette.NormalEnding">
+   <children>
+      <Label layoutX="248.0" layoutY="77.0" text="One Player is saved" textFill="#590808">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="310.0" layoutY="293.0" text="Normal Ending" textFill="#e6e3e3" />
+      <MediaView fx:id="idVideoWin" fitHeight="250.0" fitWidth="200.0" layoutX="529.0" layoutY="185.0" />
+      <MediaView fx:id="idVideoLose" fitHeight="250.0" fitWidth="200.0" layoutX="7.0" layoutY="185.0" />
+   </children>
+</AnchorPane>
